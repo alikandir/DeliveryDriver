@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Package
+  - Customer
+  - Boost
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Road
   - Water
   - UI
-  - 
+  - Trees
   - 
   - 
   - 
@@ -38,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Road
+    uniqueID: 128701073
+    locked: 0
+  - name: Trees
+    uniqueID: 541179957
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
