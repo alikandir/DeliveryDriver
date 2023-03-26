@@ -19,7 +19,6 @@ public class Delivery : MonoBehaviour
   {
     if (other.tag == "Package" && !hasPackage)
     {
-     Debug.Log("Package picked up");
      hasPackage = true;
      Destroy(other.gameObject, destroyDelay); 
      spriteRenderer.color = hasPackageColor;
@@ -27,7 +26,6 @@ public class Delivery : MonoBehaviour
     
     if (other.tag =="Customer" && hasPackage)
     {
-      Debug.Log("Package delivered!");
       hasPackage = false;
       spriteRenderer.color = noPackageColor;
     }
